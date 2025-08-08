@@ -3,4 +3,4 @@ spring:
     redis:
       host: 192.168.150.130
       port: 6379
-      password: Redis#edc4rfv
+      password: 123

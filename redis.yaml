@@ -1,0 +1,10 @@
+spring:
+  data:
+    redis:
+      timeout: 2000
+      database: 0
+      lettuce:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        timeout: 2000

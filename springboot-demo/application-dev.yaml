@@ -1,0 +1,10 @@
+app:
+  redis:
+    loadBatchSize: 99
+    expirationSeconds:
+      default: 300
+      filmText: 10
+    lock:
+      seconds: 60
+      max-retries: 10
+      sleep-millis: 5000

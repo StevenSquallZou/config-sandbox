@@ -1,0 +1,15 @@
+datasource:
+  app:
+    jdbc-url: jdbc:mysql://192.168.150.130:3306
+    username: app
+    password: '{cipher}4c9292f183953253c80b21e5e92012967c984c8577d7e7773695106eae5d6941'
+
+  world:
+    jdbc-url: jdbc:mysql://192.168.150.130:3306/world
+    username: world_admin
+    password: '{cipher}4c9292f183953253c80b21e5e92012967c984c8577d7e7773695106eae5d6941'
+
+  sakila:
+    jdbc-url: jdbc:mysql://192.168.150.130:3306/sakila
+    username: sakila_admin
+    password: '{cipher}4c9292f183953253c80b21e5e92012967c984c8577d7e7773695106eae5d6941'

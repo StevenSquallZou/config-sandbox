@@ -1,0 +1,24 @@
+datasource:
+  app:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    pool-name: appHikariCP
+    maximum-pool-size: 5
+    minimum-idle: 1
+    connection-timeout: 30000
+    connection-test-query: SELECT 1
+
+  world:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    pool-name: worldHikariCP
+    maximum-pool-size: 5
+    minimum-idle: 1
+    connection-timeout: 30000
+    connection-test-query: SELECT 1
+
+  sakila:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    pool-name: sailaHikariCP
+    maximum-pool-size: 5
+    minimum-idle: 1
+    connection-timeout: 30000
+    connection-test-query: SELECT 1

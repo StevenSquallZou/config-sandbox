@@ -3,4 +3,4 @@ spring:
     redis:
       host: 192.168.150.130
       port: 6379
-      password: 123
+      password: '{cipher}4c9292f183953253c80b21e5e92012967c984c8577d7e7773695106eae5d6941'
